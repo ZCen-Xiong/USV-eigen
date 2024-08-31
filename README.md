@@ -1,4 +1,4 @@
-#### indirect-finite-thrust-bang-bang-control
+# indirect-finite-thrust-bang-bang-control
 
 ## Requirements
 
