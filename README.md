@@ -49,13 +49,13 @@ Make sure your `CMakeLists.txt` is set to require the correct CMake version, C++
 ```cmake
 cmake_minimum_required(VERSION 3.10)
 
-project(thispro)
+project(MY_ProjectName)
 aux_source_directory(. SRC_CUR)
 
 include_directories(include)
 include_directories(eigen-3.4.0)     
 
-add_executable(indirect ${SRC_CUR})
+add_executable(AppName ${SRC_CUR})
 ```
 ## Dynamics
 The state and control variables are defined as:
