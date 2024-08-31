@@ -1,4 +1,64 @@
-# indirect-finite-thrust-bang-bang-control
+#### indirect-finite-thrust-bang-bang-control
+
+## Requirements
+
+This project requires the following dependencies:
+- **CMake**: Minimum version required is **3.10.0**.
+- **C++ Standard**: The project uses **C++17** features.
+- **Eigen**: Version **3.4.0** is required for matrix and vector operations.
+
+### Installing Eigen 3.4.0
+
+To install Eigen 3.4.0, you can follow these steps:
+
+#### 1. Download Eigen 3.4.0
+
+You can download Eigen 3.4.0 from the official website or clone the repository using git:
+
+```bash
+wget https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz
+tar -xvzf eigen-3.4.0.tar.gz
+```
+
+Alternatively, using git:
+
+```bash
+git clone https://gitlab.com/libeigen/eigen.git
+cd eigen
+git checkout 3.4.0
+```
+
+#### 2. Install Eigen 3.4.0
+
+Eigen is a header-only library, so you don't need to compile it. Just include the Eigen headers in your project. To make it available globally:
+
+```bash
+cd eigen-3.4.0
+mkdir build
+cd build
+cmake ..
+sudo make install
+```
+
+This will install Eigen headers into `/usr/local/include/eigen3/`.
+
+### CMake Configuration
+
+Make sure your `CMakeLists.txt` is set to require the correct CMake version, C++ standard, and links the Eigen library properly:
+
+```cmake
+cmake_minimum_required(VERSION 3.10)
+project(indirect-finite-thrust-bang-bang-control)
+
+set(CMAKE_CXX_STANDARD 17)
+
+find_package(Eigen3 3.4.0 REQUIRED)
+
+include_directories(${EIGEN3_INCLUDE_DIR})
+
+add_executable(your_executable_name main.cpp)
+target_link_libraries(your_executable_name Eigen3::Eigen)
+```
 ## Dynamics
 The state and control variables are defined as:
 $$
