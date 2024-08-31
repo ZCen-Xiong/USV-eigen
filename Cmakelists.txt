@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(thispro)
+aux_source_directory(. SRC_CUR)
+
+include_directories(include)
+include_directories(eigen-3.4.0)     
+
+add_executable(indirect ${SRC_CUR})

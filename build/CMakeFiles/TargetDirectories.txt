@@ -1,0 +1,3 @@
+D:/DESKTOP/CWorkspace/Project1_buaa2/build/CMakeFiles/indirect.dir
+D:/DESKTOP/CWorkspace/Project1_buaa2/build/CMakeFiles/edit_cache.dir
+D:/DESKTOP/CWorkspace/Project1_buaa2/build/CMakeFiles/rebuild_cache.dir

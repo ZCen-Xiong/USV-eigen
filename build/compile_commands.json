@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/DESKTOP/CWorkspace/Project1_buaa2/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/indirect.dir/includes_CXX.rsp -g -o CMakeFiles\\indirect.dir\\funcs.cpp.obj -c D:\\DESKTOP\\CWorkspace\\Project1_buaa2\\funcs.cpp",
+  "file": "D:/DESKTOP/CWorkspace/Project1_buaa2/funcs.cpp",
+  "output": "CMakeFiles/indirect.dir/funcs.cpp.obj"
+},
+{
+  "directory": "D:/DESKTOP/CWorkspace/Project1_buaa2/build",
+  "command": "C:\\PROGRA~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/indirect.dir/includes_CXX.rsp -g -o CMakeFiles\\indirect.dir\\main.cpp.obj -c D:\\DESKTOP\\CWorkspace\\Project1_buaa2\\main.cpp",
+  "file": "D:/DESKTOP/CWorkspace/Project1_buaa2/main.cpp",
+  "output": "CMakeFiles/indirect.dir/main.cpp.obj"
+}
+]
